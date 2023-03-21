@@ -8,7 +8,7 @@ function updateEmployeeWithKeyAndValue(_employeeObject,key,value){
     newObject[key]=value;
     return newObject;
 }
-function destructivelyUpdateEmployeeWithKeyAndValue(employeeObject,key,value){
+function destructivelyUpdateEmployeeWithKeyAndValue(key,value){
     employee[key]=value;
     return employee;
 }
